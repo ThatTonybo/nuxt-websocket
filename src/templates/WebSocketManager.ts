@@ -22,7 +22,7 @@ export default class WebSocketManager {
     this.emitter = emitter
     this.reconnectInterval = reconnectInterval
     this.ws = new WebSocket(this.url)
-    this.connect()
+    //this.connect()
   }
 
   /**
